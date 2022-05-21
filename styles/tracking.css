@@ -10,6 +10,10 @@
     filter: brightness(var(--hover-brightness));
 }
 
+.tracking-card__header {
+    margin-bottom: 1rem;
+}
+
 .tracking-card__header, .tracking-card__body {
     display: flex;
     align-items: center;
@@ -20,6 +24,7 @@
     cursor: pointer;
 }
 .tracking-card__title {
+    margin: 0;
     font-weight: var(--weight-normal);
     font-size: var(--fs-base);
 }
