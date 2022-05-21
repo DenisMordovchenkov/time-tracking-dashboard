@@ -1,0 +1,35 @@
+.tracking-card {
+    background-color: var(--blue-800);
+    border-radius: var(--radii);
+    position: relative;
+    padding: 1.25rem;
+    bottom: -2px;
+}
+
+.tracking-card:hover {
+    filter: brightness(var(--hover-brightness));
+}
+
+.tracking-card__header, .tracking-card__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tracking-card__menu {
+    cursor: pointer;
+}
+.tracking-card__title {
+    font-weight: var(--weight-normal);
+    font-size: var(--fs-base);
+}
+.tracking-card__time {
+    font-size: 32px;
+    font-weight: var(--weight-light);
+}
+
+.tracking-card__prev-period {
+    font-size: 14px;
+    font-weight: var(--weight-light);
+    color: var(--blue-200);
+}

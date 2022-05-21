@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Rubik:wght@300;400;500&display=swap');
-
+@import "dashboard.css";
+@import "person.css";
+@import "view.css";
+@import "tracking.css";
+@import "modifiers.css";
 * {
     box-sizing: border-box;
 }
@@ -23,9 +27,11 @@
     --green-100: hsl(145, 58%, 55%);
     --violet-500: hsl(264, 64%, 52%);
     --orange-100: hsl(43, 84%, 65%);
+    --hover-brightness: 1.6;
 
     /*Borders*/
     --radii: 1rem;
+    --radii-full: 50%;
 }
 
 body {
@@ -35,3 +41,4 @@ body {
     font-size: var(--fs-base);
     color: #ffffff;
 }
+

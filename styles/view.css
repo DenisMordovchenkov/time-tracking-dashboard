@@ -1,0 +1,15 @@
+.view-selector {
+    padding: 1.25rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-selector__item {
+    font-size: 14px;
+    color: var(--blue-200);
+    cursor: pointer;
+}
+
+.view-selector__item:hover {
+    color: #ffffff;
+}
